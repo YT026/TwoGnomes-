@@ -1,0 +1,32 @@
+repo_name: YT026/TwoGnomes-
+report_id: 1806e4f11678925f2844d732dde0010b
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-05T14:49:35+00:00'
+requested_by: YT026
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/YT026/TwoGnomes-
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/YT026/TwoGnomes-/blob/main/.github/workflows/tencent.yml
+  detection_source: ".github/workflows/tencent.yml"
+  last_updated_by: YT026
+  last_updated_on: 2023-05-17 17:21:54.000000000 Z
